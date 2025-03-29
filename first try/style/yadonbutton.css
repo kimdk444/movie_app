@@ -1,0 +1,36 @@
+.video-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+        width: 100%; 
+    }
+
+
+    .video-container {
+        width: 100%; 
+    }
+
+    .thumbnail {
+        display: flex;
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    .video-info {
+        display: flex;
+        align-items: top;
+        gap: 10px;
+    }
+
+    .channel-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .header {
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+    }
